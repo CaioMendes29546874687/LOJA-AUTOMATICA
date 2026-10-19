@@ -10,22 +10,22 @@
 
 | Produto | Referência varejista | Preço de referência | Risco preliminar | Por que testar / o que validar |
 |---|---|---:|---|---|
-| Kit colmeia organizadora de gavetas | Vale Muito Isso | R$ 35,89 | Baixo | Fácil de demonstrar, leve; validar número de peças, tecido e medidas |
-| Kit com 3 caixas organizadoras dobráveis | Vale Muito Isso | R$ 33,50 | Médio | Resolve armazenamento e pode vender em kit; validar dimensões e frete volumétrico |
-| Kit de sacos a vácuo com bomba | Vale Muito Isso | R$ 29,94 | Médio | Demonstra economia de espaço; testar vedação, bomba e taxa de defeito |
+| Kit colmeia organizadora de gavetas | Amazon.com.br / Mercado Livre | R$ 38,94 (comparável) | Baixo | Listagem Amazon 4,9/5 com 177 avaliações; comparáveis na loja Casa e Ordem no Mercado Livre com 100+ vendas. Confirmar SKU exato |
+| Kit com 3 caixas organizadoras dobráveis | Amazon.com.br | R$ 44,55 (comparável) | Médio | Resolve armazenamento e pode vender em kit; validar dimensões e frete volumétrico |
+| Kit de sacos a vácuo com bomba | Shopee | R$ 43,99 (comparável) | Médio | Demonstra economia de espaço; testar vedação, bomba e taxa de defeito |
 | Sapateira compacta | Vale Muito Isso | R$ 29,99 (aprox.) | Médio | Problema claro; escolher uma única variante e validar montagem e medidas |
-| Porta-ovos para geladeira | Vale Muito Isso | R$ 13,99 | Médio | Item barato e demonstrável; validar material próprio para contato com alimentos |
-| Prateleira com ventosa | Vale Muito Isso | R$ 10,88 | Alto | Preço baixo, mas risco de queda e reclamação; teste de carga e superfícies é obrigatório |
-| Separador de gaveta com 5 divisórias | Lojas Colombo / Zanline | R$ 18,90 | Baixo | Produto simples; comparar medidas e material exatos |
-| Organizador ventilável de geladeira 4,2 L | Lojas Colombo / Zanline | R$ 18,94 | Médio | Utilidade clara; validar dimensões, tampa e material |
-| Caixa organizadora empilhável 14 L | Cobasi / Pleion | R$ 37,90 | Alto | Preço observado competitivo, mas volume pode encarecer o frete |
-| Organizador modular de gaveta 37,7 cm | Janaína Mello Store | R$ 34,90 | Baixo | Boa demonstração antes/depois; confirmar SKU e equivalência de material |
+| Porta-ovos para geladeira | Maravilhas do Lar | R$ 13,99 | Médio | Listagem observada com 4,8/5 e 265 avaliações; validar capacidade e material próprio para contato com alimentos |
+| Prateleira com ventosa | Shopee | R$ 37,35 (comparável) | Alto | Listagem observada com 5,0/5, mas só 1 avaliação; risco de queda e reclamação, teste de carga obrigatório |
+| Separador de gaveta / organizador modular | OU | R$ 18,99 (comparável) | Baixo | Listagem observada com 4,5/5 e 30 avaliações; comparar medidas e material exatos |
+| Organizador de geladeira de aproximadamente 4 L | Shopee | R$ 22,49 (comparável) | Médio | Listagem observada com 4,8/5 e 553 avaliações; validar dimensões, tampa e material |
+| Caixa organizadora empilhável 14 L | Dipratos / Pleion | R$ 38,99 | Alto | Comparar volume, tampa e dimensões; frete volumétrico pode eliminar a margem |
+| Kit de organizadores modulares de gaveta | Shopee | R$ 41,57 (comparável) | Baixo | Listagem observada com 4,9/5 e 588 avaliações; confirmar kit e número de peças |
 
 ### Fontes de referência de varejo
 - Guia de organizadores (preços publicados em 2026): https://valemuitoisso.com.br/categoria/organizacao
 - Categorias de caixas e gaveteiros, Lojas Colombo: https://www.colombo.com.br/produto/Utilidades-Domesticas/Organizacao-e-Limpeza/Caixas-e-Gaveteiros
 - Caixas e cestos, Cobasi: https://www.cobasi.com.br/c/casa/lavanderia-e-organizacao/caixas-e-cestos-organizadores
-- Catálogo de organizadores, Janaína Mello Store: https://janainamellostore.com.br/
+- Catálogo de organizadores, Janaína Mello Store: https://janainamellostore.com.br/\n- Loja Casa e Ordem no Mercado Livre (colmeias e sinais de vendas): https://www.mercadolivre.com.br/loja/casa-e-ordem\n- Catálogo de organizadores de colmeia: https://www.colmeiaorganizadora.com/colmeias-organizadoras/\n- Os preços e avaliações de marketplaces variam; as notas e contagens são sinais preliminares de demanda, não previsão de vendas.
 
 ## Fornecedores: custos e condições publicadas
 
