@@ -43,11 +43,11 @@ function parseRows(text: string): { rows: ParsedRow[]; errors: string[] } {
   if (raw.length < 2) return { rows: [], errors: ["Cole um CSV com cabeçalho e pelo menos uma linha de produto."] };
   const headers = raw[0].map(normalize);
   const find = (aliases: string[]) => headers.findIndex(h => aliases.includes(h));
-  const skuIndex = find(["sku", "codigo", "codigoproduto", "referencia", "ref", "cod"]);
-  const nameIndex = find(["produto", "nome", "nomeproduto", "descricao", "descricaoproduto", "productname", "title"]);
-  const costIndex = find(["custo", "precocusto", "custounitario", "valorcusto", "cost", "suppliercost", "costprice", "precocompra"]);
+  const skuIndex = find(["sku", "codigo", "codigoproduto", "codigodoproduto", "referencia", "ref", "cod"]);
+  const nameIndex = find(["produto", "nome", "nomeproduto", "nomedoproduto", "descricao", "descricaoproduto", "productname", "title"]);
+  const costIndex = find(["custo", "precocusto", "custounitario", "valorcusto", "valordecusto", "cost", "suppliercost", "costprice", "precocompra"]);
   const categoryIndex = find(["categoria", "category", "grupoproduto", "grupo"]);
-  const stockIndex = find(["estoque", "quantidade", "saldo", "stock", "stockquantity", "qtd"]);
+  const stockIndex = find(["estoque", "quantidade", "quantidadeestoque", "saldo", "stock", "stockquantity", "qtd"]);
   const suggestedIndex = find(["precosugerido", "precovenda", "precorecomendado", "suggestedprice", "retailprice"]);
   const weightIndex = find(["peso", "pesog", "pesogramas", "weight", "weightgrams"]);
   const errors: string[] = [];
