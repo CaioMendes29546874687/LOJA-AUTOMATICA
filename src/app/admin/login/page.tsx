@@ -1,0 +1,3 @@
+import "./login.css";
+import LoginForm from "./login-form";
+export default function AdminLoginPage(){return <main className="login-shell"><section className="login-card"><a className="brand" href="/"><span className="brand-mark">L</span><span>LOJA AUTOMÁTICA</span></a><p className="eyebrow">ACESSO RESTRITO</p><h1>Painel operacional</h1><p className="login-description">Entre para gerenciar a pesquisa de produtos e as cotações de fornecedores. O checkout continua desativado.</p><LoginForm/><a className="login-back" href="/">← Voltar para a vitrine</a></section></main>}

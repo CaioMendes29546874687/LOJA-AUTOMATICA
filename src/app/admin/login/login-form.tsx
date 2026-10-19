@@ -1,0 +1,7 @@
+"use client";
+import { useState } from "react";
+export default function LoginForm(){
+ const [password,setPassword]=useState("");const [error,setError]=useState("");const [busy,setBusy]=useState(false);
+ async function submit(event:React.FormEvent<HTMLFormElement>){event.preventDefault();setError("");setBusy(true);try{const r=await fetch("/api/admin/login",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({password})});const body=await r.json();if(!r.ok){setError(body.error||"Não foi possível entrar.");return;}window.location.assign("/admin");}catch{setError("Falha de conexão. Tente novamente.");}finally{setBusy(false);}}
+ return <form className="login-form" onSubmit={submit}><label htmlFor="admin-password">Senha administrativa</label><input id="admin-password" type="password" autoComplete="current-password" required minLength={12} value={password} onChange={e=>setPassword(e.target.value)} placeholder="Digite sua senha"/>{error?<p className="login-error" role="alert">{error}</p>:null}<button type="submit" disabled={busy}>{busy?"Verificando...":"Entrar no painel →"}</button><p className="login-footnote">Sessão protegida por cookie HTTP-only, expira em 8 horas.</p></form>;
+}
