@@ -1,0 +1,2 @@
+"use client";
+export default function LogoutButton(){async function logout(){await fetch("/api/admin/logout",{method:"POST"});window.location.assign("/admin/login");}return <button type="button" className="logout-button" onClick={logout}>Sair ↗</button>}
