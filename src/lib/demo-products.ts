@@ -1,0 +1,9 @@
+export type Product = { id:string; slug:string; name:string; category:string; description:string; priceCents:number; image:string; status:"active"|"draft" };
+export const demoProducts: Product[] = [
+{id:"p-001",slug:"luminaria-led",name:"Luminária LED Minimalista",category:"Casa",description:"Iluminação moderna para ambientes residenciais.",priceCents:8990,image:"https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=80",status:"active"},
+{id:"p-002",slug:"suporte-notebook",name:"Suporte Ergonômico para Notebook",category:"Escritório",description:"Organização e conforto para sua mesa de trabalho.",priceCents:6990,image:"https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=900&q=80",status:"active"},
+{id:"p-003",slug:"garrafa-termica",name:"Garrafa Térmica Inox",category:"Acessórios",description:"Design simples para acompanhar sua rotina.",priceCents:5990,image:"https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=900&q=80",status:"active"},
+{id:"p-004",slug:"organizador-cabos",name:"Kit Organizador de Cabos",category:"Eletrônicos",description:"Ajuda a manter cabos e carregadores organizados.",priceCents:2990,image:"https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80",status:"active"},
+{id:"p-005",slug:"luminaria-mesa",name:"Luminária de Mesa",category:"Casa",description:"Luz auxiliar para leitura e trabalho.",priceCents:7490,image:"https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=80",status:"active"},
+{id:"p-006",slug:"organizador-mesa",name:"Organizador de Mesa",category:"Escritório",description:"Mais praticidade para seu espaço de trabalho.",priceCents:3990,image:"https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",status:"active"}
+];

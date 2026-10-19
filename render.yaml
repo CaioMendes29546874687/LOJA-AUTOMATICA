@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: loja-automatica
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: APP_MODE
+        value: demo
+      - key: NEXT_PUBLIC_STORE_NAME
+        value: LOJA AUTOMÁTICA
